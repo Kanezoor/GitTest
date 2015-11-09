@@ -24,6 +24,10 @@ namespace Git_Test
             test.Addx(test.a, test.b);
             Console.WriteLine(test.c);
             Console.WriteLine(test.multi());
+<<<<<<< HEAD
+=======
+            Console.WriteLine(test.lol(test.a));
+>>>>>>> newTestClass
 
         }
     }
