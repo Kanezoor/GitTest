@@ -15,7 +15,9 @@ namespace Git_Test
             test.b = Convert.ToInt32(Console.ReadLine());
             test.Addx(test.a, test.b);
             Console.WriteLine(test.c);
-         
+            Console.WriteLine(test.multi());
+            Console.WriteLine(test.lol(test.a));
+
         }
     }
 }
