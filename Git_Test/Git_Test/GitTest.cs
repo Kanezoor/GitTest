@@ -28,7 +28,12 @@ namespace Git_Test
         {
             return mult;
         }
-
+        public bool EqualNumber(int x, int x1)
+        {
+            if (x < x1)
+                return false;
+            else return true;
+        }
         
     }
     
