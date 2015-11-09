@@ -34,6 +34,13 @@ namespace Git_Test
                 return false;
             else return true;
         }
+
+        public int lol(int x)
+        {
+            if (x >= 10)
+                return 2;
+            else return 1;
+        }
         
     }
     
